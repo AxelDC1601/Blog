@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1><a href="index.html">Blog</a></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Contactez-nous</h2>
+            <form action="mailto:votre.email@example.com" method="GET" enctype="text/plain">
+                <label for="name">Nom complet :</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom complet" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="Votre adresse email" required>
+
+                <label for="subject">Sujet :</label>
+                <input type="text" id="subject" name="subject" placeholder="Le sujet de votre message" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" placeholder="Votre message" rows="6" required></textarea>
+
+                <button class="read-more" type="submit">Envoyer</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mon Site Web. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>

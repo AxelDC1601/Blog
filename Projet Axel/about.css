@@ -1,0 +1,73 @@
+/* Style général de la page */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Conteneur principal */
+.container {
+    flex: 1;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Style de l'en-tête */
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Section À propos */
+.about-section {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Pied de page */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 20px;
+    /*flex-shrink: 0; /* Empêche le footer de rétrécir */
+}
